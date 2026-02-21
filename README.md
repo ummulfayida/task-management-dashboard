@@ -79,3 +79,33 @@ management logic
 - *lib/*: Shared TypeScript types.
 - *_tests_/*: Unit tests using Jest.
 - *public/*: Static assets and screenshots.
+
+
+##  Design Decisions
+
+### 1️ Next.js App Router
+Used Next.js App Router for modern routing structure and better scalability. It provides clear separation between layout and page components.
+
+### 2️ TypeScript
+Used TypeScript with strict typing to improve code safety, maintainability, and scalability. It helps prevent runtime errors.
+
+### 3️ Custom Hook (useTasks)
+Created a custom hook (useTasks) to separate business logic from UI components. This improves reusability and keeps components clean.
+
+### 4️ LocalStorage as Mock Backend
+Used localStorage to simulate backend functionality since no real backend was required. This allows persistent task data without an API.
+
+### 5️ Reusable Components
+Built reusable components like TaskCard and TaskForm to follow component-based architecture principles.
+
+### 6️ Pagination
+Implemented pagination to handle large task lists efficiently and improve UI performance.
+
+### 7️ Dark Mode Support
+Added dark mode using next-themes for better user experience and accessibility.
+
+### 8️ Unit Testing
+Added a basic unit test for TaskCard using Jest to demonstrate understanding of testing practices.
+
+### 9️ Clean Folder Structure
+Organized project into app, components, hooks, and lib folders for better scalability and readability
