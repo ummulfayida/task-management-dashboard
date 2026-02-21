@@ -55,3 +55,27 @@ git clone https://github.com/ummulfayida/task-management-dashboard.git
     [pagination](public\pagination.jpg)
 -SEARCH
      [Search](public\seacrh.jpg)
+
+#  Folder structure
+
+taskmanagement
+|---app/               ->Next.js routing and layout
+
+|--components/         ->Reusable UI
+components
+      |- hooks/         ->Custome state
+management logic
+|--lib/                 ->Type definitions
+|--tests/               ->Unit tests
+|--public               ->static assets & screenshorts
+|--package.json         ->Dependencies & scripts
+|--README.md            ->Project documentation
+
+### Explanation
+
+- *app/*: Contains Next.js App Router pages and layout.
+- *components/*: Reusable UI components like TaskCard and TaskForm.
+- *hooks/*: Custom React hooks for managing task state.
+- *lib/*: Shared TypeScript types.
+- *_tests_/*: Unit tests using Jest.
+- *public/*: Static assets and screenshots.
