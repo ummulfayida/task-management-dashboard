@@ -11,7 +11,7 @@ A modern Task Management Application built using:
 
 ---
 
-## 🚀 Features
+##  Features
 
 - Mock Authentication
 - Create Task (Modal Form)
@@ -28,9 +28,30 @@ A modern Task Management Application built using:
 
 ---
 
-## 📦 Setup Instructions
+## Setup Instructions
 
-### 1️⃣ Clone Repository
+### Clone Repository
 
 ```bash
 git clone https://github.com/ummulfayida/task-management-dashboard.git
+
+---
+
+## Screenshorts
+
+-LOGIN
+     [Login Page](public\login.jpg)
+-DASHBOARD
+    [Dashboard](public\dashboard.jpg)
+-DARKMODE
+    [Dark mode](public\darkmode.jpg)
+-ADD TASK
+    [Add Task](public\add-task.jpg)
+-DELETE TASK
+    [Delete task](public\delete-task.jpg)
+-EDIT TASK
+    [Edit task](public\edit-task.jpg)
+-PAGINATION
+    [pagination](public\pagination.jpg)
+-SEARCH
+     [Search](public\seacrh.jpg)
